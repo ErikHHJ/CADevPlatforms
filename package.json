@@ -1,11 +1,11 @@
 {
   "name": "devplatformsca2",
   "version": "1.0.0",
-  "description": "",
+  "description": "��#\u0000 \u0000C\u0000A\u0000D\u0000e\u0000v\u0000P\u0000l\u0000a\u0000t\u0000f\u0000o\u0000r\u0000m\u0000s\u0000\r\u0000 \u0000",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "node js/index.js"
+    "dev": "nodemon js/index.js"
   },
   "author": "",
   "license": "ISC",
@@ -17,5 +17,6 @@
   },
   "devDependencies": {
     "nodemon": "^3.0.3"
-  }
+  },
+  "keywords": []
 }
