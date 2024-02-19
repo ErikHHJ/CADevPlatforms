@@ -3,7 +3,7 @@ import "dotenv/config";
 import cors from "cors";
 import { createClient } from "@supabase/supabase-js";
 
-const supabaseURl = "https://mxkmnyqeybrvloiqtfum.supabase.co";
+const supabaseURl = "https://cadevplatforms.onrender.com";
 const supabaseKey = process.env.SUPABASE_KEY;
 const supabase = createClient(supabaseURl, supabaseKey);
 
