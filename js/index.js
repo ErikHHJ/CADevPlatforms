@@ -3,14 +3,14 @@ import "dotenv/config";
 import cors from "cors";
 import { createClient } from "@supabase/supabase-js";
 
-const supabaseURl = "https://cadevplatforms-erikhhj.onrender.com";
+const supabaseURl = "https://mxkmnyqeybrvloiqtfum.supabase.co";
 const supabaseKey = process.env.SUPABASE_KEY;
 const supabase = createClient(supabaseURl, supabaseKey);
 
 const app = express();
 app.use(express.json());
 const corsOptions = {
-  origin: "http://localhost:3000",
+  origin: "https://cadevplatforms-erikhhj.onrender.com",
   methods: "GET, POST, DELETE",
 };
 
