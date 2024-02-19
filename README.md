@@ -17,14 +17,14 @@ author: "name of account"
 - /api/comments - Contains all comments. Each comment has a key for comment and author. 
 ```ruby
 {
-comment: "comment"
+comment: "comment",
 author: "name of account"
 }
 ```
 
-Get all posts: GET  /api/posts   - Can also get individual posts with "/api/posts/1" where 1 is the posts' id
-Get all comments GET   /api/comments   -Can also get individual comments with "/api/posts/1" where 1 is the comments' id
-Create new post: POST   /api/posts
-Create new comment: POST   /api/comments
-Delete post: DELETE   /api/posts/id
-Delete comment: DELETE   /api/comments/id
+- Get all posts: GET  /api/posts   - Can also get individual posts with "/api/posts/1" where 1 is the posts' id
+- Get all comments GET   /api/comments   -Can also get individual comments with "/api/posts/1" where 1 is the comments' id
+- Create new post: POST   /api/posts
+- Create new comment: POST   /api/comments
+- Delete post: DELETE   /api/posts/id
+- Delete comment: DELETE   /api/comments/id
